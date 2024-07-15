@@ -28,8 +28,8 @@ public class LiteraluraApplication {
 		System.out.println();
 	}
 	
-	public static void viewbooks(String Languages) {
-		String url = "https://gutendex.com/books/?languages=+Languages";
+	public static void viewbooks(String languages) {
+		String url = "https://gutendex.com/books/?languages="+languages;
 		
 		System.out.print("Cargando ");
 		RestTemplate restTemplate = new RestTemplate();
